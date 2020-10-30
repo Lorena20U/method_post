@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+    myapp:
+        image: lorena612/method_post
+        build:
+            context: .
+        ports:
+            - 5000:5000

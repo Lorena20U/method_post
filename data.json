@@ -1,0 +1,57 @@
+{
+    "headers": {
+        "0":"id",
+        "1":"type",
+        "2":"name", 
+        "3":"image",
+        "4":"thumbnail"
+    },
+    "data":[
+        {
+            "id": "0001",
+            "type": "int",
+            "name": "numero",
+            "image":{
+                "url": "images/0001.jpg",
+                "width": "200",
+                "height": "200"
+                },
+            "thumbnail":
+            {
+                "url": "images/thumbnails/0001.jpg",
+                "width": "32",
+                "height": "32"
+            }
+        },
+        {
+            "id": "0002",
+            "type": "double",
+            "name": "decimal",
+            "image":{
+                "url": "images/0002.jpg",
+                "width": "200",
+                "height": "200"
+                },
+            "thumbnail":{
+                "url": "images/thumbnails/0002.jpg",
+                "width": "32",
+                "height": "32"
+            }
+        },
+        {
+            "id": "0003",
+            "type": "boolean",
+            "name": "True_or_False",
+            "image":{
+                "url": "images/0003.jpg",
+                "width": "200",
+                "height": "200"
+                },
+            "thumbnail":{
+                "url": "images/thumbnails/0003.jpg",
+                "width": "32",
+                "height": "32"
+            }
+        }
+    ]
+}

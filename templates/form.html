@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block tit %}Contacto{% endblock%}
+
+{% block contenido %}
+
+<div class="section block" id="contact">
+    <div class="cc-contact-information">
+        <div class="container">
+            <div class="cc-contact">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="card mb-0 aos-init aos-animate  " data-aos="zoom-in">
+                            <div class="h4 text-center title">Formulario</div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <div class="card-body text-center">
+                                        <form action="" method="POST">
+                                            <div class="p pb-3"><strong>Llenar datos:</strong></div>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <div class="input-group"><span class="input-group-addon"><i
+                                                                class="fa fa-user-circle"></i></span><input
+                                                            class="form-control" type="text" name="id"
+                                                            placeholder="Enter id" required="required"></div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <div class="input-group"><span class="input-group-addon"><i
+                                                                class="fa fa-file-text"></i></span><input
+                                                            class="form-control" type="text" name="type"
+                                                            placeholder="Enter type" required="required"></div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <div class="input-group"><span class="input-group-addon"><i
+                                                                class="fa fa-envelope"></i></span><input
+                                                            class="form-control" type="text" name="name"
+                                                            placeholder="Enter name" required="required"></div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <div class="input-group"><span class="input-group-addon"><i
+                                                                class="fa fa-envelope"></i></span><input
+                                                            class="form-control" type="file" name="image"
+                                                            placeholder="Enter image" required="required"></div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <div class="input-group"><span class="input-group-addon"><i
+                                                                class="fa fa-envelope"></i></span><input
+                                                            class="form-control" type="file" name="thumbnail"
+                                                            placeholder="Enter thumbnail" required="required"></div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col"><button class="btn btn-danger"
+                                                        type="submit">Enviar</button></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
